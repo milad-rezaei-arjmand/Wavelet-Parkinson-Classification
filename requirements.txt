@@ -1,0 +1,11 @@
+matio
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.14.1
+PyWavelets==1.7.0
+scikit-learn==1.5.2
+imbalanced-learn==0.12.4
+matplotlib==3.9.2
+joblib==1.4.2
+tqdm==4.66.5
+pyarrow==17.0.0

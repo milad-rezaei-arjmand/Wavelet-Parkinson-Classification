@@ -1,0 +1,31 @@
+FINAL MODEL
+===========
+Transform: Stationary Wavelet Transform (SWT)
+Wavelet: db4
+Level: 5
+Initial features: 648
+Selected features: 300
+Classifier: RBF-SVM
+C: 10
+gamma: scale
+class_weight: balanced
+Validation: 5 repeats x 5 outer folds, 4 inner folds, subject-grouped
+
+REPEATED VALIDATION MEAN
+========================
+Accuracy: 87.72%
+Balanced Accuracy: 84.96%
+Macro-F1: 83.13%
+Healthy Recall: 80.00%
+Parkinson Recall: 89.93%
+ROC-AUC: 92.68%
+
+CONSENSUS
+=========
+Accuracy: 89.01%
+Balanced Accuracy: 86.16%
+Macro-F1: 84.73%
+Healthy Recall: 81.01%
+Parkinson Recall: 91.30%
+ROC-AUC: 93.37%
+Confusion matrix: [[64, 15], [24, 252]]
