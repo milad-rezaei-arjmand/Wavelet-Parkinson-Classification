@@ -20,10 +20,10 @@ from sklearn.model_selection import StratifiedGroupKFold
 # Paths
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-WPT_SCRIPT = PROJECT_ROOT / "12_tune_wpt_svm.py"
-ACTIVITY_SCRIPT = PROJECT_ROOT / "13_nested_wpt_activity_ensemble.py"
+WPT_SCRIPT = PROJECT_ROOT / "src" / "models" / "12_tune_wpt_svm.py"
+ACTIVITY_SCRIPT = PROJECT_ROOT / "src" / "analysis" / "13_nested_wpt_activity_ensemble.py"
 
 OUTPUT_DIR = (
     PROJECT_ROOT

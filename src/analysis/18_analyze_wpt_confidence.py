@@ -22,7 +22,7 @@ from sklearn.metrics import (
 # Paths
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 INPUT_DIR = (
     PROJECT_ROOT

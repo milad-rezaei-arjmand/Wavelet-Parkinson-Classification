@@ -22,3 +22,6 @@ Thumbs.db
 
 # Large experiment outputs
 *.parquet
+
+# Generated experiment outputs
+outputs/

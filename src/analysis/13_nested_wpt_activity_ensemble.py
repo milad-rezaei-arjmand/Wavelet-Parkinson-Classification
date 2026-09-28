@@ -23,8 +23,8 @@ from sklearn.model_selection import StratifiedGroupKFold
 # Paths
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parent
-WPT_SCRIPT = PROJECT_ROOT / "12_tune_wpt_svm.py"
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+WPT_SCRIPT = PROJECT_ROOT / "src" / "models" / "12_tune_wpt_svm.py"
 
 OUTPUT_DIR = (
     PROJECT_ROOT

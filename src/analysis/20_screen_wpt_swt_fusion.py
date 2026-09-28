@@ -31,7 +31,7 @@ from sklearn.svm import SVC
 # Paths and configuration
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 OUTPUTS_DIR = PROJECT_ROOT / "outputs"
 
 WPT_FEATURE_PATH = OUTPUTS_DIR / "wpt_features_db4_level4.parquet"

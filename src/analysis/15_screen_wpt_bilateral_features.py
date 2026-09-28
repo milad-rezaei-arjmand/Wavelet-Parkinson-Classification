@@ -36,7 +36,7 @@ from sklearn.svm import SVC
 # Paths
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 OUTPUTS_DIR = PROJECT_ROOT / "outputs"
 
 WPT_FEATURE_PATH = (

@@ -5,7 +5,7 @@ import pandas as pd
 from matio import load_from_mat
 
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = PROJECT_ROOT / "data" / "raw"
 FILE_PATH = DATA_DIR / "001.mat"
 

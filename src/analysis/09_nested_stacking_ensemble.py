@@ -26,14 +26,14 @@ from sklearn.preprocessing import StandardScaler
 # Paths
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 BASELINE_SCRIPT = (
-    PROJECT_ROOT / "05_train_baselines.py"
+    PROJECT_ROOT / "src" / "models" / "05_train_baselines.py"
 )
 
 ENSEMBLE_SCRIPT = (
-    PROJECT_ROOT / "08_nested_activity_ensemble.py"
+    PROJECT_ROOT / "src" / "analysis" / "08_nested_activity_ensemble.py"
 )
 
 OUTPUT_DIR = (
